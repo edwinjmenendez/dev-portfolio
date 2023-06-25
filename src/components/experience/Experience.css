@@ -3,7 +3,6 @@
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
 }
-
 .experience_container > div {
     background-color: var(--color-bg-variant);
     padding: 2.4rem 5rem;
@@ -27,7 +26,7 @@
 .experience_content {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 2rem;
+    row-gap: 2rem;
 }
 
 .experience_details {
@@ -39,6 +38,7 @@
     margin-top: 0.5rem;
     color: var(--color-primary);
 }
+/*
 
 /*  =========== MEDIA QUERIES (MEDIUM DEVICES) =========== */
 @media screen and (max-width: 1024px) {

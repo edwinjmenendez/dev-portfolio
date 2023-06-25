@@ -22,7 +22,7 @@ const Experience = () => {
     
     { name: 'Python', level: 'Proficient' },
     { name: 'SQL', level: 'Proficient' },
-    { name: 'PostgreSQL', level: 'Proficient' },
+    { name: 'Postgres', level: 'Proficient' },
     { name: 'Athena', level: 'Proficient' },
     { name: 'Node.js', level: 'Experienced' },
     { name: 'Express', level: 'Experienced' },
@@ -31,7 +31,7 @@ const Experience = () => {
     { name: 'Glue', level: 'Experienced' },
     { name: 'DynamoDB', level: 'Experienced' },
     { name: 'AWS Lambda', level: 'Experienced' },
-    { name: 'CloudFormation', level: 'Experienced' },
+    { name: 'AWS Cloud Formation', level: 'Experienced' },
     { name: 'S3', level: 'Experienced' },
     { name: 'Docker', level: 'Experienced' },
     { name: 'NoSQL', level: 'Experienced' },
