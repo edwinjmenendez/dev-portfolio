@@ -1,21 +1,15 @@
 import React from 'react'
 import './Portfolio.css';
-import img1 from '../../assets/portfolio1.jpg'
-import img2 from '../../assets/portfolio2.jpg'
-import img3 from '../../assets/portfolio4.jpg'
-import img4 from '../../assets/portfolio5.png'
-import img5 from '../../assets/portfolio6.jpg'
-import img6 from '../../assets/download.png'
+import img1 from '../../assets/download.jpeg'
+import img2 from '../../assets/portfolio1.jpg'
+import img3 from '../../assets/petmatch.jpeg'
 
 const Portfolio = () => {
 
   const projects = [
-    // { img: img1, project: 'App' },
-    // { img: img2, project: 'App' },
-    // { img: img3, project: 'App' },
-    // { img: img4, project: 'App' },
-    { img: img5, project: 'TeaMZ' },
-    { img: img6, project: 'Fitness Tracker' },
+    { img: img1, project: 'Reactime', link: 'https://github.com/edwinjmenendez/reactime' },
+    { img: img2, project: 'Fairpay', link: 'https://github.com/edwinjmenendez/fairpay' },
+    { img: img3, project: 'Pet-Match', link: 'https://github.com/pet-match/pet-matcher' },
   ]
 
   return (
@@ -30,8 +24,7 @@ const Portfolio = () => {
             </div>
             <h3>{project.project}</h3>
             <div className="portfolio_item-cta">
-              <a href="https://github.com/edwinjmenendez" className='btn' target='_blank'>Github</a>
-              <a href="https://github.com/edwinjmenendez" className='btn btn-primary' target='_blank'>Live Demo</a>
+              <a href={project.link} className='btn' target='_blank'>Github</a>
             </div>
           </article>
         ))}

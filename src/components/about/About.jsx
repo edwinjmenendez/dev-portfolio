@@ -27,12 +27,12 @@ const About = () => {
             <article className="about_card">
               <FiUsers className='about_icon' />
               <h5>Clients</h5>
-              <small>300+ worldwide</small>
+              <small>3 companies</small>
             </article>
             <article className="about_card">
               <AiOutlineFolderOpen className='about_icon' />
               <h5>Projects</h5>
-              <small>80+ completed</small>
+              <small>20+ projects</small>
             </article>
           </div>
           <div className='about_me-paragraph'>

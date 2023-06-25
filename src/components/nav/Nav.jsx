@@ -19,7 +19,7 @@ const Nav = () => {
       <a href="#" onClick={handleClick} className={activeNav === '#' ? 'active' : ''} >{<BiHomeAlt2 />}</a>
       <a href="#about" onClick={handleClick} className={activeNav === '#about' ? 'active' : ''} >{<AiOutlineUser />}</a>
       <a href="#experience" onClick={handleClick} className={activeNav === '#experience' ? 'active' : ''} >{<MdOutlineWorkOutline />}</a>
-      <a href="#services" onClick={handleClick} className={activeNav === '#services' ? 'active' : ''} >{<BsJournalCode />}</a>
+      <a href="#portfolio" onClick={handleClick} className={activeNav === '#services' ? 'active' : ''} >{<BsJournalCode />}</a>
       <a href="#contact" onClick={handleClick} className={activeNav === '#contact' ? 'active' : ''} >{<BiMessageRounded />}</a>
     </nav>
   )
