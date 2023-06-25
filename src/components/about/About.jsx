@@ -32,7 +32,7 @@ const About = () => {
             <article className="about_card">
               <AiOutlineFolderOpen className='about_icon' />
               <h5>Projects</h5>
-              <small>20+ projects</small>
+              <small>10+ projects</small>
             </article>
           </div>
           <div className='about_me-paragraph'>
